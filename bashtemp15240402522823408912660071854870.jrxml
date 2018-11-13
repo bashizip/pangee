@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="testReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="eec2f053-ca34-49fe-b97b-d087686a43a7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="raisonSociale" class="java.lang.String">
+		<fieldDescription><![CDATA[raisonSociale]]></fieldDescription>
+	</field>
+		<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="117" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="88" width="75" height="20" uuid="8144b3d3-6af8-4c65-9c3c-bd9f08e56ab1"/>
+				<text><![CDATA[Raison sociale]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="75" y="88" width="480" height="20" uuid="f186ae6b-b47d-48ec-912e-f75cc4dd743e"/>
+				<textFieldExpression><![CDATA[": " + $F{raisonSociale}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="163" y="46" width="180" height="20" uuid="d45cbf1b-b776-4a3d-8b7c-6437a081819c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[TEST REPORT]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="454" y="0" width="101" height="20" uuid="58a62d0c-3bfd-4e79-b81a-dae9ab2ef8e1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

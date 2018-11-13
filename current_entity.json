@@ -1,0 +1,77 @@
+ {
+    "dictionary": "ent.act.1",
+    "values": {
+      "denominationSociale": "ESSOR",
+      "mandataire": false,
+      "formeJuridique": "B10",
+      "notaireGUCE": false,
+      "typeSociete": "B1",
+      "dirigeant": [
+        {
+          "personneNaturelle": {
+            "prenom": "PHILLIPE",
+            "nom": "LAMM",
+            "dateNaissance": "2018-03-05",
+            "sexe": "Masculin",
+            "adresseRdc": {
+              "numeroVoie": "62654",
+              "nomVoie": "FFRE",
+              "typeVoie": "Avenue",
+              "ville": "Kinshasa"
+            }
+          },
+          "fonction": "Gérant"
+        }
+      ],
+      "origine": "C",
+      "siegeSocial": {
+        "adresseRdc": {
+          "numeroVoie": "630326",
+          "nomVoie": "YURERE",
+          "typeVoie": "Avenue",
+          "ville": "Kinshasa"
+        },
+        "pays": "RD Congo"
+      },
+      "typeEntreprise": "B",
+      "commissaireAuxComptes": [],
+      "docStatut": "20180306_docStatut_193.docx",
+      "associe": [
+        {
+          "personneNaturelle": {
+            "prenom": "FREF",
+            "nom": "FREF",
+            "dateNaissance": "2018-03-06",
+            "sexe": "Masculin",
+            "adresseRdc": {
+              "numeroVoie": "FREF",
+              "nomVoie": "FRFE",
+              "typeVoie": "Avenue",
+              "ville": "Lubumbashi"
+            }
+          },
+          "partSocial": "600000"
+        }
+      ],
+      "requerant": {
+        "personneNaturelle": {
+          "prenom": "ELEANOR",
+          "nom": "GRANT",
+          "dateNaissance": "2018-03-22",
+          "sexe": "Féminin",
+          "adresseRdc": {
+            "numeroVoie": "23123",
+            "nomVoie": "BILD",
+            "typeVoie": "Avenue",
+            "ville": "Kinshasa"
+          }
+        }
+      },
+      "statutSigne": "20180306_statutSigne_194.pdf",
+      "capitalSocial": {
+        "amountLocalCurrency": 620000000
+      },
+      "problemeGreffier": false
+    },
+    "_id": null
+  }

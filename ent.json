@@ -1,0 +1,91 @@
+{
+    "_id": "0644f1f8b43021746f4a7aade50a65f6",
+    "_rev": "8-463ccf54543d2c087a984bb25183c2ea",
+    "taskId": "848a317e-fd1c-11e7-bf11-000c29f60591",
+    "businessKey": "18/KNG/IMM/000061",
+    "type": "DataFlowDoc",
+    "executionId": "848a317b-fd1c-11e7-bf11-000c29f60591",
+    "definitionId": "verificationRaisonSociale",
+    "created_on": "14:27:51 GMT+01:00",
+    "created_by": "bash",
+    "last_modified_on": "14 h 29 GMT+01:00",
+    "last_modified_by": "seb",
+    "last_task": "cae3d58e-fd1c-11e7-bf11-000c29f60591",
+    "flow_variables": {},
+    "pending_values": {
+        "denominationSociale": "DELL INC",
+        "commissaireAuxComptes": [],
+        "mandataire": false,
+        "formeJuridique": "A10",
+        "associe": [],
+        "notaireGUCE": false,
+        "requerant": {
+            "personneNaturelle": {
+                "prenom": "grtgrt",
+                "nom": "grtgr",
+                "dateNaissance": "15/01/2018",
+                "sexe": "Masculin",
+                "adresse": {
+                    "numeroVoie": "grtgrt",
+                    "nomVoie": "grtgr",
+                    "typeVoie": "Avenue",
+                    "ville": "Kinshasa"
+                }
+            }
+        },
+        "typeSociete": "A1",
+        "dirigeant": [
+            {
+                "personneNaturelle": {
+                    "prenom": "grtgrt",
+                    "nom": "grtgr",
+                    "dateNaissance": "22/01/2018",
+                    "sexe": "Masculin",
+                    "adresseRdc": {
+                        "adresse": {
+                            "numeroVoie": "grtgrtg",
+                            "nomVoie": "rtgrtg",
+                            "typeVoie": "Boulevard",
+                            "ville": "Kinshasa"
+                        }
+                    }
+                },
+                "fonction": "Gérant"
+            }
+        ],
+        "origine": "C",
+        "siegeSocial": {
+            "adresseRdc": {
+                "numeroVoie": "grtgr",
+                "nomVoie": "grtgr",
+                "typeVoie": "Avenue",
+                "ville": "Kinshasa"
+            },
+            "pays": "RD Congo"
+        },
+        "typeEntreprise": "A",
+        "saisieCorrecte": true,
+        "problemeGreffier": false,
+        "rccm": "CD/KNG/RCCM/18-A-00007",
+        "dateImmatriculation": "2018-01-19T13:29:51.159+0000"
+    },
+    "files": {},
+    "unvalidated_entity": {
+        "site": "KNG",
+        "typeEntrepriseIndex": {
+            "A": 7,
+            "B": 14,
+            "C": 15
+        },
+        "dictionary": "jur323",
+        "siteDisplayName": "Kinshasa/Gombe",
+        "countryISO": "CD",
+        "values": {
+            "denominationSociale": "DELL INC"
+        },
+        "businessKeyIndex": 61,
+        "paysDisplayName": "République Démocratique du Congo",
+        "_id": null
+    },
+    "processInstanceId": "848a317b-fd1c-11e7-bf11-000c29f60591"
+}

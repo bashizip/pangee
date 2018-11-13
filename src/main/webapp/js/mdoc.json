@@ -1,0 +1,38 @@
+{
+  "_id": "ent.KNG.jur:frg.79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4845",
+  "_rev": "1-c60e67704931309b9f5e25310d3af3c0",
+  "type": "EntityDoc",
+  "dictionary": "[jur, 1]",
+  "site": "KNG",
+  "businessKey": "18/KNG/IMM/000055",
+  "executionId": "fe787cbe-fc58-11e7-9fd1-000c29f60591",
+  "definitionId": "verificationRaisonSociale",
+  "values": {
+    "dateNaissance": {
+      "value": "09/01/2018",
+      "fragment": "79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4"
+    },
+    "adresse": {
+      "value": {
+        "numeroVoie": "13",
+        "nomVoie": "des ecurires",
+        "ville": "Kinshasa",
+        "typeVoie": "Avenue"
+      },
+      "fragment": "79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4"
+    },
+    "sexe": {
+      "value": "Masculin",
+      "fragment": "79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4"
+    },
+    "prenom": {
+      "value": "bob",
+      "fragment": "79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4"
+    },
+    "nom": {
+      "value": "boseko",
+      "fragment": "79aa1f6f-5ba9-4504-aa9a-2746c5c06bc4"
+    }
+  },
+  "entityType": "personneNaturelle"
+}
